@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: quick-start-builders.html 
+keywords: requirements, basic mode, read mode, automate mode 
+summary: Datenbanken haben drei verschiedene Modi mit unterschiedlichen Anforderungen. 
+---
+= Schnellstart für Bauherren
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Beginnen Sie mit der Erstellung eines Builders-Projekts. Administratoren und Teamleiter können mithilfe von Buildern Projekte und Arbeitsbereiche für Entwicklerteams verwalten.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] Melden Sie sich bei Workload Factory an
+[role="quick-margin-para"]
+Sie müssen https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Richten Sie ein Konto mit Workload Factory ein"^] sich mit einem der anmelden https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Zwei"] Fügen Sie Ihrem Konto AWS-Anmeldedaten und -Berechtigungen hinzu
+[role="quick-margin-para"]
+Sie können die Workload-Fabrik im Modus _Basic_ verwenden, ohne Anmeldedaten für den Zugriff auf Ihr AWS-Konto hinzuzufügen. Durch das Hinzufügen von AWS-Anmeldeinformationen zur Workload Factory im Modus _Lesen_ oder _Automatisieren_ erhält Ihr Workload Factory Account die Berechtigungen, die zum Erstellen und Verwalten von FSX for ONTAP-Dateisystemen sowie zum Bereitstellen und Verwalten von Builders-Projekten erforderlich sind.
+
+[role="quick-margin-para"]
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie Anmeldeinformationen und Berechtigungen hinzufügen"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Drittens"] Richten Sie Ihre Umgebung ein, um die Anforderungen des Builders zu erfüllen
+[role="quick-margin-para"]
+Sie benötigen ein bereitgestelltes und erkannter FSX für ONTAP-Dateisystem, das mindestens ein Volume enthält, das als NFS-Freigabe konfiguriert wurde.
+
+[role="quick-margin-para"]
+link:requirements-builders.html["Erfahren Sie mehr über die Anforderungen von Builders"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Vier"] Integration mit anderen Services
+[role="quick-margin-para"]
+Integrieren Sie Builders mit anderen Services wie einem Serviceportal oder Perforce Helix Core mithilfe der REST-API von Workload Factory.
+
+[role="quick-margin-para"]
+link:integrate-perforce.html["Erfahren Sie, wie Sie Builders mit Perforce integrieren"^].
+
+.Wie es weiter geht
+Sie können nun link:manage-projects.html["Erstellen Sie ein Projekt"]Entwicklern ein schnelles und effizientes Management von Code und Artefakten ermöglichen.

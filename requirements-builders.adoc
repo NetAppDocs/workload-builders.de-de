@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: requirements-builders.html 
+keywords: Builders, FSx, project, projects 
+summary: Stellen Sie sicher, dass die Workload-Farm und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung der BlueXP -Workload-Factory für Builders beginnen. Dazu gehören die Zugangsdaten für die AWS-Anmeldung, ein bereitgestelltes FSX für ONTAP-Filesystem und vieles mehr. 
+---
+= Anforderungen an den Ersteller
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Stellen Sie sicher, dass die Workload-Farm und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung der BlueXP -Workload-Factory für Builders beginnen. Dazu gehören die Zugangsdaten für die AWS-Anmeldung, ein bereitgestelltes FSX für ONTAP-Filesystem und vieles mehr.
+
+Workload Werksanmeldung und Konto:: Sie müssen https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Richten Sie ein Konto mit Workload Factory ein"^] sich mit einem der anmelden https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^].
+AWS Zugangsdaten und Berechtigungen:: Sie müssen AWS-Anmeldeinformationen in die Workload-Fabrik mit automatischen Berechtigungen hinzufügen, was bedeutet, dass Sie die Workload-Fabrik im _Automate_-Modus für Builders verwenden.
+
+
+_Basic_ Mode und _Read_ Mode Berechtigungen werden derzeit nicht unterstützt. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie AWS-Anmeldedaten zu der Workload-Farm hinzufügen"^]
+
+FSX für ONTAP-Dateisystem:: Sie benötigen mindestens ein FSX für ONTAP-Dateisystem:
++
+--
+* Das Dateisystem wird von Builders zum Speichern der von Ihnen erstellten Projekte und Arbeitsbereiche verwendet.
++
+Dieses Dateisystem FSX für ONTAP muss FlexVol-Volumen verwenden. FlexGroup Volumes werden nicht unterstützt.
+
+* Sie müssen die AWS-Region, VPC und das Subnetz kennen, in der sich das AWS FSX für ONTAP-Filesystem befindet.
+* Sie benötigen mindestens ein Volume im Dateisystem mit der folgenden Konfiguration:
++
+** Das Volume muss als NFS-Freigabe konfiguriert sein.
+** Das Dateisystem muss mit einem Link konfiguriert sein. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Weitere Informationen zu Links"^].
+
+
+* Sie müssen die Tag-Schlüssel-/Wertpaare berücksichtigen, die Sie auf die AWS Ressourcen anwenden möchten, die Teil dieser Implementierung sind (optional).
++
+https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erfahren Sie, wie Sie FSX für ONTAP-Dateisysteme implementieren und managen"^]
+
+
+
+--
+

@@ -1,0 +1,28 @@
+---
+indexpage:
+  title: Dokumentation zum BlueXP  Workload Factory for Builders
+  lead: Erstellen und Verwalten von Softwareentwicklungsprojekten auf FSX für ONTAP
+    Filesystem-Storage in BlueXP  Workload Factory.
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Versionshinweise
+      url: "/whats-new.html"
+    - title: Erfahren Sie mehr über Entwickler
+      url: "/learn-builders.html"
+    - title: Schnellstart
+      url: "/quick-start-builders.html"
+  - title: Verwenden Sie Builders
+    links:
+    - title: Verwalten von Projekten
+      url: "/manage-projects.html"
+    - title: Erstellen Sie einen Arbeitsbereich
+      url: "/create-workspaces.html"
+    - title: Mit Codebox automatisieren
+      url: "/automate-codebox.html"
+  - title: Wissen und Support
+    links:
+    - title: Für den Support anmelden
+      url: "/support-registration.html"
+    - title: Holen Sie sich Hilfe
+      url: "/get-help-builders.html"

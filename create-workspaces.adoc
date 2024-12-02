@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: create-workspaces.html 
+keywords: manage, workspace, snapshot, project 
+summary: Ein Arbeitsbereich in der BlueXP  Workload Factory for Builders ist eine Perforce-Darstellung eines Projekts, das auf einem Projekt-Snapshot basiert. Sie können Arbeitsbereiche als Teil eines Builders-Projekts erstellen. 
+---
+= Erstellen Sie einen Arbeitsbereich
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Ein Arbeitsbereich in der BlueXP  Workload Factory for Builders ist eine Perforce-Darstellung eines Projekts zu einem bestimmten Zeitpunkt. Arbeitsbereiche werden anhand eines Projekt-Snapshot erstellt. Sie können neue Arbeitsbereiche innerhalb eines Builders-Projekts erstellen. Sie können Arbeitsbereiche über die Perforce-Benutzeroberfläche erstellen.
+
+.Bevor Sie beginnen
+Stellen Sie sicher, dass Sie Builders mit dem Perforce Helix Visual Client integriert haben. Weitere Informationen finden Sie unter link:integrate-perforce.html["Integration von Buildern mit Perforce"^] .
+
+.Schritte
+. Melden Sie sich bei Perforce an.
+. Wählen Sie im Perforce-Menü *Ansicht* > *WF*.
++
+Der Bildschirm für die werkseitige Workload-Anmeldung wird in der Perforce-Benutzeroberfläche angezeigt.
+
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie *Arbeitsbereich erstellen*.
+. Geben Sie auf der Seite „Workspace-Projekt erstellen“ Folgendes ein:
++
+.. Wählen Sie einen Snapshot aus, der als Grundlage für den Arbeitsbereich verwendet werden soll.
+.. Geben Sie einen Namen für den Arbeitsbereich ein.
+.. Geben Sie optional eine Benutzerkennung ein, um den Arbeitsbereich zu beanspruchen. Diese Kennung sollte mit der Perforce-Benutzer-ID des Entwicklers übereinstimmen, der diesen Arbeitsbereich verwendet.
+
+
+. Wählen Sie *Erstellen*.
+
+
+.Ergebnis
+Der Arbeitsbereich wird erstellt und in der Liste der Arbeitsbereiche auf der Seite Arbeitsbereiche angezeigt.

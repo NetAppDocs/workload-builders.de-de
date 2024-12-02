@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: manage-projects.html 
+keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
+summary: Verwalten Sie Microsoft SQL Server-Instanzen in der Workload-Fabrik für Datenbanken. 
+---
+= Builders-Projekte verwalten
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Builders-Projekte verwalten, um zu steuern, wie Ihr Code und Ihre Artefakte für jedes Projekt in der BlueXP  Workload Factory for Builders gemanagt werden.
+
+
+
+== Erstellen Sie ein Projekt
+
+Sie können ein neues Builders-Projekt erstellen, damit Sie die Datenschutzfunktionen Ihres Amazon FSX for NetApp ONTAP Dateisystems für Ihren Code und Artefakte nutzen können.
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *Projekt erstellen* aus.
+. Geben Sie auf der Seite „Projekt erstellen“ Folgendes an:
++
+.. *Projektname*: Geben Sie einen Namen für das Projekt ein.
+.. *Beschreibung*: Geben Sie eine Beschreibung für das Projekt ein.
+.. *Dateisystem*: Geben Sie Folgendes an:
++
+... *Zugangsdaten*: Wählen Sie die zu verwendenden Amazon AWS Zugangsdaten aus. Builder verwenden diese Anmeldeinformationen, um FSX for ONTAP-Dateisysteme zu entdecken, die Sie mit diesem Projekt verwenden können, und um Klone und Snapshots von Projekten zu erstellen.
+... *Region*: Wählen Sie die Region aus, in der sich dieses FSX für ONTAP-Dateisystem befindet.
+... *FSX für ONTAP Dateisystem*: Wählen Sie ein FSX für ONTAP Dateisystem, das mit diesem Projekt verwendet werden soll.
++
+Sie können nur Dateisysteme auswählen, die mit einem Link konfiguriert sind. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Weitere Informationen zu Links"^].
+
+... *Wählen Sie ein Volume*: Wählen Sie ein Volume aus, auf dem das Projekt gespeichert werden soll; Builders verwendet dieses Volume als Software-Repository.
++
+Sie können nur Volumes auswählen, die als NFS-Freigabe konfiguriert sind.
+
+
+
+.. *Betriebsrichtlinien*: Grenzen für Projektklone festlegen:
++
+... *Maximale Aufbewahrung in Tagen*: Geben Sie die maximale Anzahl von Tagen ein, die ein Klon beibehalten werden soll. Nach dieser Anzahl von Tagen wird der Klon von der Workload-Fabrik entfernt.
+... *Maximale Anzahl der Klone pro Benutzer oder Gruppe*: Geben Sie die maximale Anzahl der Klone ein, die für einen Benutzer oder eine Gruppe bereitgestellt werden können.
+... *Maximale Klongröße in gib*: Geben Sie die maximale Größe in gib eines Projektklons ein.
+
+
+.. *Zugriffsrichtlinien*: Gewähren Sie bestimmten Benutzern oder Gruppen ausdrücklich Projektzugriff:
++
+... *Umfang der Richtliniendurchsetzung*: Geben Sie einzelne IP-Adressen oder IP-Adressbereiche ein, um den Projektzugriff auf diese IP-Adressen oder -Bereiche zu beschränken.
++
+Beispiel: `172.16.0.0/24`
+
+... *Benutzer- oder Gruppenkennungen*: Geben Sie Benutzer- oder Gruppenkennungen ein, um den Projektzugriff nur auf diese Benutzer oder Gruppen zu beschränken.
++
+Beispiel: `User1234`
+
+
+
+
+
+. Wählen Sie *Erstellen*.
+
+
+.Ergebnis
+Das Projekt wird erstellt und in der Projektliste auf der Seite Projekte angezeigt.
+
+
+
+== Vorhandene Projekte anzeigen
+
+Mit den folgenden Schritten können Sie vorhandene Projekte anzeigen, die in der BlueXP  Workload Factory for Builders erstellt wurden.
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
+. Zeigen Sie die auf der Seite Projekte aufgeführten vorhandenen Projekte an.
+
+
+
+
+== Bearbeiten Sie ein Projekt
+
+Sie können die Einstellungen eines Projekts jederzeit bearbeiten.
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
+. Wählen Sie auf der Seite Projekte die Option für das Projekt ausimage:icon-action.png["Die Optionsschaltfläche"], das Sie bearbeiten möchten.
+. Nehmen Sie alle erforderlichen Änderungen an der Projektkonfiguration vor.
+. Wählen Sie *Speichern*.
+
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
+. Wählen Sie auf der Seite Projekte die Option für das Projekt ausimage:icon-action.png["Die Optionsschaltfläche"], für das Sie einen Schnappschuss erstellen möchten.
+. Wählen Sie im daraufhin angezeigten Menü *Snapshot erstellen*.
+. Wählen Sie im Dialogfeld *Create Snapshot* einen Namen für den Snapshot aus und wählen Sie *Create*.
+
+
+
+
+== Anzeigen der Arbeitsbereiche eines Projekts
+
+Ein Klon oder Schnappschuss eines Projekts wird als Arbeitsbereich bezeichnet. Wenn Sie einen Arbeitsbereich erstellen, wird dieser so lange beibehalten, wie es die Vorgangsrichtlinie des Projekts zulässt. Sie können vorhandene Arbeitsbereiche für ein Projekt anzeigen, indem Sie die folgenden Schritte ausführen.
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
+. Wählen Sie auf der Seite Projekte ein Projekt aus und wählen Sie *Ansicht*.
+. Zeigen Sie den Status und die Details aller Arbeitsbereiche für dieses Projekt an.
+. Wenn Warnungen oder Warnungen für einen Arbeitsbereich angezeigt werden, bewegen Sie den Mauszeiger über das Alarm- oder Warnsymbol, um den Grund anzuzeigen.
+
+
+
+
+== Projekt löschen
+
+Sie können ein Projekt löschen, wenn es nicht mehr benötigt wird, indem Sie diese Schritte ausführen.
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
+. Wählen Sie auf der Seite Projekte die Option für das Projekt ausimage:icon-action.png["Die Optionsschaltfläche"], das Sie löschen möchten.
+. Wählen Sie *Löschen*.
+. Wählen Sie im Bestätigungsdialog *Löschen*.
+
+
+.Ergebnis
+Das Projekt wird gelöscht und sämtlicher mit dem Projekt assoziierter Code oder Artefakte aus dem Volume gelöscht. Snapshots und Klone des Projekts bleiben erhalten.
