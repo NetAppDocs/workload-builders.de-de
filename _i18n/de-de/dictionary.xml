@@ -281,26 +281,6 @@
   <block id="1f44141a0f383810dac8c932e0d76754" category="list-text">Sie müssen die Tag-Schlüssel-/Wertpaare berücksichtigen, die Sie auf die AWS Ressourcen anwenden möchten, die Teil dieser Implementierung sind (optional).</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">Erfahren Sie, wie Sie FSX für ONTAP-Dateisysteme implementieren und managen</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="284b0f618c1cefab43ce3a83c106ac42" category="summary">Zurücksetzen eines Sandbox-Klons in der Workload-Fabrik für Datenbanken</block>
-  <block id="ba981915546be1bb9a1a5f34021cb317" category="doc">Zurücksetzen eines Sandbox-Klons in der Workload-Fabrik für Datenbanken</block>
-  <block id="119092644393b63350941f731f4e02dd" category="paragraph">Zurücksetzen eines Datenbankklons auf die Originalversion zum Zeitpunkt der Erstellung</block>
-  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Über diese Aufgabe</block>
-  <block id="36bfe5aa9dbfbad068e6721ddea626bb" category="paragraph">Beim Klonen einer Datenbank handelt es sich bei der Erstellung um einen _Baseline_ -Klon. Die Daten in der geklonten Datenbank sind zum Zeitpunkt der Erstellung mit der Quelldatenbank identisch. Wenn sich die Daten in einem Sandbox-Datenbankklon im Laufe der Zeit ändern, sollten Sie die Daten zum Zeitpunkt der ersten Erstellung des Klons wieder in die Basislinie zurücksetzen. Diese Operation wird als Neubaselining eines Klons bezeichnet. Statt einen neuen Klon als Basis zu erstellen, wird jedoch Platz gespart. Alle Änderungen am Sandbox-Klon werden jedoch gelöscht.</block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">Arbeitslastwerkkonsole</block>
-  <block id="2e600fc81eb21acd31aa44d1697dc84f" category="list-text">Melden Sie sich beim an <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>.</block>
-  <block id="a22aeb541c430c47c35bcc20690ea51a" category="list-text">Wählen Sie in der Kachel Datenbanken *Gehe zu Datenbank-Inventar*.</block>
-  <block id="a1029809e498e81eaada752a6b08cd7c" category="list-text">Wählen Sie in Datenbanken die Registerkarte *Sandboxes* aus.</block>
-  <block id="e25b967c54d3008b230ffd4e18be90cb" category="list-text">Klicken Sie auf der Registerkarte Sandboxes auf das Menü mit drei Punkten des Sandbox-Klons, den Sie zurücksetzen möchten.</block>
-  <block id="0975db7a2f5f2be54dab36d8b76af890" category="list-text">Wählen Sie * Neu-Baseline*.</block>
-  <block id="ee39d3157a6b84476b1e530c43e7e0af" category="list-text">Klicken Sie im Dialogfeld „Neu-Baseline“ auf *Neu-Baseline*.</block>
-  <block id="60662f13dd467742de00d5852483a73d" category="summary">Teilen Sie einen Sandbox-Klon von der Quelldatenbank auf, um eine neue Datenbank zu erstellen.</block>
-  <block id="5697f3fa0c3bfd3435b1268d395d044b" category="doc">Teilen Sie einen Sandbox-Klon von der Quelldatenbank auf</block>
-  <block id="7e63ac86d460cf0995a5ac132e4c8092" category="paragraph">Durch die Aufteilung eines Sandbox-Klons aus seiner Quelldatenbank wird eine neue Datenbank erstellt, die eine bestimmte Menge an Speicherkapazität verbraucht. Der Klon wird gelöscht, wenn der Split abgeschlossen ist und die neue Datenbank im Bestand angezeigt wird.</block>
-  <block id="bad5772919d73bf3b17433524b58ead6" category="inline-link-macro">Erhöhen Sie die Kapazität des Filesystems</block>
-  <block id="eed30e1e95c32e95da513640e3e7e215" category="paragraph">Berücksichtigen Sie, wie viel Storage-Kapazität für die neue Datenbank benötigt wird. Falls erforderlich, <block ref="ecf193ca0846a4137269dac878e92281" category="inline-link-macro-rx"></block> für das FSX für ONTAP-Dateisystem, bevor Sie beginnen.</block>
-  <block id="be0c57159940db106da8c592b3a6f1a7" category="list-text">Klicken Sie auf der Registerkarte Sandboxes auf das Menü mit drei Punkten des Sandbox-Klons, den Sie teilen möchten.</block>
-  <block id="54e2c4dd2b9e992b761540f131754e81" category="list-text">Wählen Sie *Split*.</block>
-  <block id="05b751f4cbd4ae2611783e6ab193a961" category="list-text">Klicken Sie im Dialogfeld Teilen auf *Split*.</block>
   <block id="056634bec4a153903ebb9b769277f4d7" category="summary">Bevor Sie einen Support-Fall beim technischen NetApp eröffnen können, müssen Sie ein NetApp Support Site Konto zum Workload Factory hinzufügen und sich anschließend für Support registrieren.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für den Support anmelden</block>
   <block id="996ad73a480311d4f86d6946935389d2" category="paragraph">Für den Support von Workload Factory und seinen Storage-Lösungen und -Services ist eine Support-Registrierung erforderlich. Sie müssen sich für Support über die BlueXP Konsole registrieren, einer separaten webbasierten Konsole von Workload Factory.</block>
@@ -344,7 +324,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich bei diesem Prozess mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Wenn Sie über Ihren Account für die NetApp Support-Website verfügen, ordnen Sie das Konto Ihrer BlueXP Anmeldung zu, indem Sie die unter aufgeführten Schritte ausführen <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="b695d69d992cf41ed6cb2eae330d2d9a" category="summary">Informieren Sie sich über die Neuerungen bei der Workload-Farm für Datenbanken.</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">Was ist neu</block>
   <block id="b3c5650c2bbe2cf7e9b39aa77519169b" category="paragraph">Informieren Sie sich über die Neuerungen bei den Builders Capability der Workload Factory.</block>
   <block id="5c8df45cbe01191b205c30373b7e5739" category="section-title">Bis 1. Dezember 2024</block>
   <block id="77ecc188e3683ff647e9350cea980265" category="sidebar">Erstellen und Verwalten von Softwareentwicklungsprojekten auf FSX für ONTAP Filesystem-Storage in BlueXP  Workload Factory.</block>
@@ -360,4 +339,11 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">Anforderungen</block>
   <block id="b3484ff5a2e6115fc61edc79c83f8c4c" category="sidebar">Verwenden Sie Builders-Workloads</block>
+  <block id="eea1c8722623804ecbfedb5877fe1fe0" category="doc">Automatisieren Sie Builders-Aufgaben mit Codebox</block>
+  <block id="d9c7cb0c1a45fbc72de246fdddd7728b" category="doc">Erstellen Sie einen Builders-Arbeitsbereich</block>
+  <block id="15db2e3e50e69780a1a62157fd7d29fa" category="doc">Hilfe zu Builders erhalten</block>
+  <block id="811bf57d4ae533110508a5fcc7be0276" category="doc">Bekannte Einschränkungen der BlueXP  Workload Factory for Builders</block>
+  <block id="827e97c0eb67d11c51fdab3d7de7cc47" category="doc">Rechtliche Hinweise für BlueXP  Workload Factory for Builders</block>
+  <block id="f326a729fb5b859cb51ee1e03ade5a34" category="doc">Melden Sie sich an, um Support für die BlueXP  Workload-Fabrik für Entwickler zu erhalten</block>
+  <block id="4f2bbf87005596e383f28ae211c4bd94" category="doc">Neuerungen bei der BlueXP -Workload-Farm für Entwickler</block>
 </blocks>

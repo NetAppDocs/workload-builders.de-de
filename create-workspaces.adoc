@@ -4,7 +4,7 @@ permalink: create-workspaces.html
 keywords: manage, workspace, snapshot, project 
 summary: Ein Arbeitsbereich in der BlueXP  Workload Factory for Builders ist eine Perforce-Darstellung eines Projekts, das auf einem Projekt-Snapshot basiert. Sie können Arbeitsbereiche als Teil eines Builders-Projekts erstellen. 
 ---
-= Erstellen Sie einen Arbeitsbereich
+= Erstellen Sie einen Builders-Arbeitsbereich
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
