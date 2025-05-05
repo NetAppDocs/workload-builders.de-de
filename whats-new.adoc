@@ -15,6 +15,16 @@ Informieren Sie sich über die Neuerungen bei den Builders Capability der Worklo
 
 
 
+== 4 Mai 2025
+
+
+
+=== Terminologie für Berechtigungen wurde aktualisiert
+
+Die Benutzeroberfläche und Dokumentation der Workload Factory verwenden jetzt „Read-Only“, um auf Leseberechtigungen und „Read-Write“ zu verweisen, um Berechtigungen zu automatisieren.
+
+
+
 == Bis 1. Dezember 2024
 
 
