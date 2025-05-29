@@ -93,14 +93,6 @@ Sie können die Einstellungen eines Projekts jederzeit bearbeiten.
 . Wählen Sie *Speichern*.
 
 
-.Schritte
-. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
-. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
-. Wählen Sie auf der Seite Projekte die Option für das Projekt ausimage:icon-action.png["Die Optionsschaltfläche"], für das Sie einen Schnappschuss erstellen möchten.
-. Wählen Sie im daraufhin angezeigten Menü *Snapshot erstellen*.
-. Wählen Sie im Dialogfeld *Create Snapshot* einen Namen für den Snapshot aus und wählen Sie *Create*.
-
-
 
 
 == Anzeigen der Arbeitsbereiche eines Projekts

@@ -36,6 +36,8 @@ sidebar:
     entries:
     - title: Verwalten von Projekten
       url: "/manage-projects.html"
+    - title: Projekte schützen
+      url: "/protect-projects.html"
     - title: Erstellen Sie einen Arbeitsbereich
       url: "/create-workspaces.html"
     - title: Mit Codebox automatisieren

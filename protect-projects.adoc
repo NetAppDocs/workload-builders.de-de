@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: protect-projects.html 
+keywords: snapshot, clone, project, protect 
+summary: Erstellen Sie Snapshots und Klone, um Ihre Builders-Projekte zu schützen. 
+---
+= Schutz der BlueXP  Workload-Farm für Builders-Projekte
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Schützen Sie Ihre Builders-Projekte, indem Sie On-Demand-Snapshots direkt aus der Workload-Fabrik erstellen. Snapshots eines Projekts werden in dem Dateisystem gespeichert, das zum Zeitpunkt der Erstellung mit dem Projekt verknüpft war.
+
+
+
+== Erstellen Sie einen Snapshot eines Projekts
+
+Sie können einen Snapshot eines Projekts erstellen, indem Sie die folgenden Schritte ausführen.
+
+.Schritte
+. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
+. Wählen Sie auf der Seite Projekte die Option für das Projekt ausimage:icon-action.png["Die Optionsschaltfläche"], für das Sie einen Schnappschuss erstellen möchten.
+. Wählen Sie im daraufhin angezeigten Menü *Snapshot erstellen*.
+. Wählen Sie im Dialogfeld *Create Snapshot* einen Namen für den Snapshot aus und wählen Sie *Create*.
+
