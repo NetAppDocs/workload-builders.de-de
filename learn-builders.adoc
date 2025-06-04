@@ -50,7 +50,7 @@ Wenn Sie Builders verwenden, erstellen Sie ein Projekt und weisen ein Volume zu,
 
 == Betriebsmodi in der Workload Factory
 
-Drei verschiedene Betriebsmodi - _BASIC_, _read_ und _Automate_ - bieten flexible Optionen für den Einsatz innerhalb und außerhalb der Workload Factory. Erhalten Sie im _BASIC_-Modus sofort einen Wert ohne Vertrauen mit Codeschnipseln für die Verwendung außerhalb der Arbeitslast. Erhalten Sie einen inkrementellen Wert mit inkrementellem Vertrauen in den Modi _read_ und _Automate_.
+Drei verschiedene Betriebsmodi – _Basis_, _Nur-Lesen_ und _Lesen/Schreiben_ – bieten flexible Optionen für die Bereitstellung innerhalb und außerhalb der Workload Factory. Erhalten Sie im _BASIC_-Modus sofort einen Wert ohne Vertrauen mit Codeschnipseln für die Verwendung außerhalb der Arbeitslast. Erzielen Sie inkrementellen Mehrwert durch inkrementelles Vertrauen in den Modi _Nur-Lesen_ und _Lesen/Schreiben_.
 
 Erfahren Sie mehr über link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Betriebsmodi in der Workload Factory"^].
 
