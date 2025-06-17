@@ -348,15 +348,29 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">Terminologie für Berechtigungen wurde aktualisiert</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">4 Mai 2025</block>
-  <block id="d585a12eb322284819964d656e33d798" category="summary">Erstellen Sie Snapshots und Klone, um Ihre Builders-Projekte zu schützen.</block>
-  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">Schutz der BlueXP  Workload-Farm für Builders-Projekte</block>
-  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">Schützen Sie Ihre Builders-Projekte, indem Sie On-Demand-Snapshots direkt aus der Workload-Fabrik erstellen. Snapshots eines Projekts werden in dem Dateisystem gespeichert, das zum Zeitpunkt der Erstellung mit dem Projekt verknüpft war.</block>
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">Erstellen Sie einen Snapshot eines Projekts</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">Sie können einen Snapshot eines Projekts erstellen, indem Sie die folgenden Schritte ausführen.</block>
-  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">Projekte schützen</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.</block>
   <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">Drei verschiedene Betriebsmodi – _Basis_, _Nur-Lesen_ und _Lesen/Schreiben_ – bieten flexible Optionen für die Bereitstellung innerhalb und außerhalb der Workload Factory. Erhalten Sie im _BASIC_-Modus sofort einen Wert ohne Vertrauen mit Codeschnipseln für die Verwendung außerhalb der Arbeitslast. Erzielen Sie inkrementellen Mehrwert durch inkrementelles Vertrauen in den Modi _Nur-Lesen_ und _Lesen/Schreiben_.</block>
   <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">Sie können die Workload-Fabrik im Modus _Basic_ verwenden, ohne Anmeldedaten für den Zugriff auf Ihr AWS-Konto hinzuzufügen. Durch das Hinzufügen von AWS-Anmeldeinformationen zur Workload Factory im _Nur-Lese-_ oder _Lese-/Schreib-_Modus erhält Ihr Workload Factory-Konto die erforderlichen Berechtigungen zum Erstellen und Verwalten von FSx für ONTAP-Dateisystemen sowie zum Bereitstellen und Verwalten von Builders-Projekten.</block>
   <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">Sie müssen der Workload Factory AWS-Anmeldeinformationen mit Lese-/Schreibberechtigungen hinzufügen. Dies bedeutet, dass Sie die Workload Factory für Builder im Lese-/Schreibmodus verwenden.</block>
   <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">Die Berechtigungen im _Basismodus_ und _Nur-Lese-Modus_ werden derzeit nicht unterstützt. <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
+  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Klonunterstützung</block>
+  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Sie können jetzt ein Projekt in der BlueXP Workload Factory für Builder klonen. Beim Klonen eines Projekts erstellt Builder aus einem Snapshot ein neues Projekt mit der gleichen Konfiguration wie das Original. Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken. Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builder folgen.</block>
+  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte</block>
+  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
+  <block id="f3dffc1ab287638d7073208a231fa289" category="summary">Verwalten Sie Versionen Ihrer Builders-Projekte mithilfe von Snapshots und Klonen.</block>
+  <block id="b066fd241c4e6e66ece7c7a4527218cf" category="inline-link">Workload Factory-REST-API</block>
+  <block id="00b8d5f676925ae3d9b3373616e27074" category="paragraph">Arbeiten Sie mit verschiedenen Versionen Ihrer Builders-Projekte, indem Sie On-Demand-Snapshots und Klone direkt aus der Workload Factory erstellen. Snapshots und Klone eines Projekts werden in dem Dateisystem gespeichert, das dem Projekt bei seiner Erstellung zugeordnet war. Sie können Snapshots und Klone auch verwalten mit dem <block ref="5f3a8bb73f58d34352656d43a7f37086" category="inline-link-rx"></block> .</block>
+  <block id="527db32c9553673d65f35d38b044b7de" category="section-title">Erstellen Sie einen Klon eines Projekts</block>
+  <block id="9a9aa1b9cb93d04e42fe69259c5b4a7e" category="paragraph">Klonen Sie ein Builders-Projekt aus einem Snapshot, indem Sie die folgenden Schritte ausführen. Beim Erstellen eines Klons wird ein neues, bearbeitbares Volume erstellt, das den Klon enthält.</block>
+  <block id="ffd0b63d4491cd8691ad26a9457b8f6a" category="list-text">Wählen Sie auf der Seite Projekte <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> für das Projekt, das Sie klonen möchten.</block>
+  <block id="e289b398c25a5d7192096ffdb52be29f" category="list-text">Wählen Sie im angezeigten Menü *Einen Klon erstellen* aus.</block>
+  <block id="1baa1309157b6d07509f68ee5fbfebaa" category="list-text">Gehen Sie im Dialogfeld *Klon erstellen* wie folgt vor:</block>
+  <block id="c9f8a1bc51e7ad4b5dbd3b4fd54d159e" category="list-text">Geben Sie einen Namen für den Klon ein.</block>
+  <block id="ef9eed0d84a82b3fb511fd837da2eef7" category="paragraph">Der Standardname für den Klon ist der Projektname mit einem Suffix aus dem aktuellen Datum und der aktuellen Uhrzeit.</block>
+  <block id="34ec6730fd54f4c463f31402d0ea9b83" category="list-text">Wählen Sie einen Snapshot aus, der als Basis für den Klon verwendet werden soll.</block>
+  <block id="c53c752e3fb8fda71f585d5e8721e833" category="paragraph">Workload Factory erstellt einen neuen Klon des Projekts und der Klon wird als neues Projekt auf der Seite „Projekte“ angezeigt.</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16 Juni 2025</block>
+  <block id="adbb6bf856639e7a9dcf34b22158718f" category="sidebar">Projektversionen verwalten</block>
 </blocks>
