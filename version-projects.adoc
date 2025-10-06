@@ -4,14 +4,14 @@ permalink: version-projects.html
 keywords: snapshot, clone, project, protect, API, version, versions, versioning 
 summary: Verwalten Sie Versionen Ihrer Builders-Projekte mithilfe von Snapshots und Klonen. 
 ---
-= Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte
+= Versionen von NetApp Workload Factory für Builders-Projekte verwalten
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Arbeiten Sie mit verschiedenen Versionen Ihrer Builders-Projekte, indem Sie On-Demand-Snapshots und Klone direkt aus der Workload Factory erstellen. Snapshots und Klone eines Projekts werden in dem Dateisystem gespeichert, das dem Projekt bei seiner Erstellung zugeordnet war. Sie können Snapshots und Klone auch verwalten mit dem  https://console.workloads.netapp.com/api-doc["Workload Factory-REST-API"^] .
+Arbeiten Sie mit verschiedenen Versionen Ihrer Builders-Projekte, indem Sie bei Bedarf Snapshots und Klone direkt aus Workload Factory erstellen.  Snapshots und Klone eines Projekts werden in dem Dateisystem gespeichert, das dem Projekt bei seiner Erstellung zugeordnet wurde.  Sie können Snapshots und Klone auch verwalten, indem Sie https://console.workloads.netapp.com/api-doc["Workload Factory REST-API"^] .
 
 
 
@@ -20,7 +20,7 @@ Arbeiten Sie mit verschiedenen Versionen Ihrer Builders-Projekte, indem Sie On-D
 Sie können einen Snapshot eines Projekts erstellen, indem Sie die folgenden Schritte ausführen.
 
 .Schritte
-. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Melden Sie sich bei Workload Factory mit einem der folgendenlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^] .
 . Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
 . Wählen Sie auf der Seite Projekte die Option für das Projekt ausimage:icon-action.png["Die Optionsschaltfläche"], für das Sie einen Schnappschuss erstellen möchten.
 . Wählen Sie im daraufhin angezeigten Menü *Snapshot erstellen*.
@@ -34,7 +34,7 @@ Sie können einen Snapshot eines Projekts erstellen, indem Sie die folgenden Sch
 Klonen Sie ein Builders-Projekt aus einem Snapshot, indem Sie die folgenden Schritte ausführen. Beim Erstellen eines Klons wird ein neues, bearbeitbares Volume erstellt, das den Klon enthält.
 
 .Schritte
-. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Melden Sie sich bei Workload Factory mit einem der folgendenlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^] .
 . Wählen Sie in der Kachel Builders die Option *zur Seite Projekte*.
 . Wählen Sie auf der Seite Projekte image:icon-action.png["Die Optionsschaltfläche"] für das Projekt, das Sie klonen möchten.
 . Wählen Sie im angezeigten Menü *Einen Klon erstellen* aus.

@@ -22,7 +22,7 @@ Integrieren Sie Builders mit dem Perforce Helix Visual Client (P4V), damit Entwi
 
 
 .Ergebnis
-Die Webbenutzeroberfläche BlueXP  Workload Factory for Builders wird im P4V-Client als HTML-Registerkarte angezeigt.
+Die Web-Benutzeroberfläche von NetApp Workload Factory for Builders wird als HTML-Registerkarte im P4V-Client angezeigt.
 
 .Was kommt als Nächstes?
 link:manage-projects.html["Erstellung eines Amazon EC2-Implementierungsplans über den Migrationsberater"].

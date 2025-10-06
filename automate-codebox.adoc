@@ -11,6 +11,6 @@ summary: Mit Codebox können Sie die Hostbereitstellung, die Datenbankerstellung
 
 
 [role="lead"]
-Mit Codebox können Sie die Projekterstellung und Datensicherungsvorgänge automatisieren. Codebox ist eine Co-Pilot-Infrastruktur als Code (IAC), die Ihnen bei der Generierung von Code zur Ausführung aller von der Workload Factory unterstützten Vorgänge hilft.
+Mit Codebox können Sie die Projekterstellung und Datenschutzvorgänge automatisieren.  Codebox ist ein Co-Pilot für Infrastruktur als Code (IaC), der Ihnen beim Generieren von Code zur Ausführung aller von Workload Factory unterstützten Vorgänge hilft.
 
 Erfahren Sie mehr über link:https://docs.netapp.com/us-en/workload-setup-admin/codebox-automation.html["Codebox-Automatisierung"^] und wie Sie es nutzen können.

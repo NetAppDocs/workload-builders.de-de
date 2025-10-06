@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: create-workspaces.html 
 keywords: manage, workspace, snapshot, project 
-summary: Ein Arbeitsbereich in der BlueXP  Workload Factory for Builders ist eine Perforce-Darstellung eines Projekts, das auf einem Projekt-Snapshot basiert. Sie können Arbeitsbereiche als Teil eines Builders-Projekts erstellen. 
+summary: Ein Arbeitsbereich in NetApp Workload Factory für Builder ist eine Perforce-Darstellung eines Projekts, die auf einem Projekt-Snapshot basiert.  Sie können Arbeitsbereiche als Teil eines Builders-Projekts erstellen. 
 ---
 = Erstellen Sie einen Builders-Arbeitsbereich
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Ein Arbeitsbereich in der BlueXP  Workload Factory for Builders ist ei
 
 
 [role="lead"]
-Ein Arbeitsbereich in der BlueXP  Workload Factory for Builders ist eine Perforce-Darstellung eines Projekts zu einem bestimmten Zeitpunkt. Arbeitsbereiche werden anhand eines Projekt-Snapshot erstellt. Sie können neue Arbeitsbereiche innerhalb eines Builders-Projekts erstellen. Sie können Arbeitsbereiche über die Perforce-Benutzeroberfläche erstellen.
+Ein Arbeitsbereich in NetApp Workload Factory für Builder ist eine Perforce-Darstellung eines Projekts zu einem bestimmten Zeitpunkt.  Die Erstellung von Arbeitsbereichen erfolgt auf Grundlage eines Projekt-Snapshots.  Sie können innerhalb eines Builders-Projekts neue Arbeitsbereiche erstellen.  Sie können Arbeitsbereiche über die Perforce-Benutzeroberfläche erstellen.
 
 .Bevor Sie beginnen
 Stellen Sie sicher, dass Sie Builders mit dem Perforce Helix Visual Client integriert haben. Weitere Informationen finden Sie unter link:integrate-perforce.html["Integration von Buildern mit Perforce"^] .
@@ -20,9 +20,10 @@ Stellen Sie sicher, dass Sie Builders mit dem Perforce Helix Visual Client integ
 . Melden Sie sich bei Perforce an.
 . Wählen Sie im Perforce-Menü *Ansicht* > *WF*.
 +
-Der Bildschirm für die werkseitige Workload-Anmeldung wird in der Perforce-Benutzeroberfläche angezeigt.
+Der Anmeldebildschirm von Workload Factory wird in der Perforce-Benutzeroberfläche angezeigt.
 
-. Melden Sie sich bei Workload Factory mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^]an.
+. Melden Sie sich bei Workload Factory mit einem der folgendenlink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^] .
+. Wählen Sie in der Kachel „Builder-Workloads“ die Option *Projekt erstellen* aus.
 . Wählen Sie *Arbeitsbereich erstellen*.
 . Geben Sie auf der Seite „Workspace-Projekt erstellen“ Folgendes ein:
 +

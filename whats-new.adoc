@@ -1,17 +1,27 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
-summary: Informieren Sie sich über die Neuerungen bei der Workload-Farm für Datenbanken. 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, Workload Factory, builders, Workload Factory' 
+summary: Erfahren Sie, was es Neues bei Workload Factory für Datenbanken gibt. 
 ---
-= Neuerungen bei der BlueXP -Workload-Farm für Entwickler
+= Neuigkeiten bei NetApp Workload Factory für Bauunternehmen
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Informieren Sie sich über die Neuerungen bei den Builders Capability der Workload Factory.
+Erfahren Sie, was es Neues bei der Builder-Funktion von Workload Factory gibt.
+
+
+
+== 5. Oktober 2025
+
+
+
+=== BlueXP workload factory jetzt NetApp Workload Factory
+
+BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln.  Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
 
 
 
@@ -21,9 +31,9 @@ Informieren Sie sich über die Neuerungen bei den Builders Capability der Worklo
 
 === Klonunterstützung
 
-Sie können jetzt ein Projekt in der BlueXP Workload Factory für Builder klonen. Beim Klonen eines Projekts erstellt Builder aus einem Snapshot ein neues Projekt mit der gleichen Konfiguration wie das Original. Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken. Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builder folgen.
+Sie können jetzt ein Projekt in BlueXP Workload Factory für Builder klonen.  Wenn Sie ein Projekt klonen, erstellt Builders aus einem Snapshot ein neues Projekt mit derselben Konfiguration wie das Original.  Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken.  Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builders folgen.
 
-https://docs.netapp.com/us-en/workload-builders/version-projects.html["Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte"]
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["Verwalten Sie Versionen von BlueXP Workload Factory für Builders-Projekte"]
 
 
 
@@ -33,7 +43,7 @@ https://docs.netapp.com/us-en/workload-builders/version-projects.html["Verwalten
 
 === Terminologie für Berechtigungen wurde aktualisiert
 
-In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
+In der Benutzeroberfläche und Dokumentation von Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
 
 
 
@@ -43,6 +53,6 @@ In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „
 
 === Ursprüngliche Version des Builders-Workloads
 
-Die BlueXP  Workload Factory for Builders vereinfacht die Nutzung und den Zugriff auf Softwareversionen, sodass keine benutzerdefinierten Tools oder Skripte erforderlich sind. Sie können Softwareversionen als in Perforce Helix Core integrierte, sofort-Clones als komfortable Arbeitsumgebung für Ihre Entwicklungsprozesse nutzen und so Zeit und Ressourcen sparen.
+BlueXP Workload Factory für Builder vereinfacht die Nutzung und den Zugriff auf Softwareversionen und macht benutzerdefinierte Tools oder Skripte überflüssig.  Sie können damit Softwareversionen als Instant Clones nutzen, die in Perforce Helix Core integriert sind und als praktischen Arbeitsbereich für Ihre Entwicklungsprozesse dienen, wodurch Sie Zeit und Ressourcen sparen.
 
 Die erste Version beinhaltet die Möglichkeit, Projekte und Arbeitsbereiche zu verwalten und Aktionen mit Codebox zu automatisieren. Sie können auch Builders mit Perforce Helix Core integrieren, so dass Sie verschiedene Versionen jedes Projekts verwalten und schnell zwischen ihnen wechseln können.

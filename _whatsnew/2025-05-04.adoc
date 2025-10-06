@@ -6,4 +6,4 @@
 
 === Terminologie für Berechtigungen wurde aktualisiert
 
-In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
+In der Benutzeroberfläche und Dokumentation von Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.

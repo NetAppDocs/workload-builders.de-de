@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements-builders.html 
 keywords: Builders, FSx, project, projects 
-summary: Stellen Sie sicher, dass die Workload-Farm und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung der BlueXP -Workload-Factory für Builders beginnen. Dazu gehören die Zugangsdaten für die AWS-Anmeldung, ein bereitgestelltes FSX für ONTAP-Filesystem und vieles mehr. 
+summary: Stellen Sie sicher, dass Workload Factory und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung von NetApp Workload Factory für Builder beginnen.  Dazu gehören Ihre AWS-Anmeldeinformationen, ein bereitgestelltes FSx für ONTAP Dateisystem und mehr. 
 ---
 = Anforderungen an den Ersteller
 :allow-uri-read: 
@@ -11,13 +11,13 @@ summary: Stellen Sie sicher, dass die Workload-Farm und AWS ordnungsgemäß eing
 
 
 [role="lead"]
-Stellen Sie sicher, dass die Workload-Farm und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung der BlueXP -Workload-Factory für Builders beginnen. Dazu gehören die Zugangsdaten für die AWS-Anmeldung, ein bereitgestelltes FSX für ONTAP-Filesystem und vieles mehr.
+Stellen Sie sicher, dass Workload Factory und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung von NetApp Workload Factory für Builder beginnen.  Dazu gehören Ihre AWS-Anmeldeinformationen, ein bereitgestelltes FSx für ONTAP Dateisystem und mehr.
 
-Workload Werksanmeldung und Konto:: Sie müssen https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Richten Sie ein Konto mit Workload Factory ein"^] sich mit einem der anmelden https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^].
-AWS Zugangsdaten und Berechtigungen:: Sie müssen der Workload Factory AWS-Anmeldeinformationen mit Lese-/Schreibberechtigungen hinzufügen. Dies bedeutet, dass Sie die Workload Factory für Builder im Lese-/Schreibmodus verwenden.
+Workload Werksanmeldung und Konto:: Sie müssen https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Einrichten eines Kontos bei Workload Factory"^] und melden Sie sich mit einem der https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^] .
+AWS Zugangsdaten und Berechtigungen:: Sie müssen Workload Factory AWS-Anmeldeinformationen mit Lese-/Schreibberechtigungen hinzufügen, was bedeutet, dass Sie Workload Factory für Builder im Lese-/Schreibmodus verwenden.
 
 
-Die Berechtigungen im _Basismodus_ und _Nur-Lese-Modus_ werden derzeit nicht unterstützt. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie AWS-Anmeldedaten zu der Workload-Farm hinzufügen"^]
+Die Berechtigungen im _Basismodus_ und _Nur-Lese-Modus_ werden derzeit nicht unterstützt.https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie AWS-Anmeldeinformationen zu Workload Factory hinzufügen"^]
 
 FSX für ONTAP-Dateisystem:: Sie benötigen mindestens ein FSX für ONTAP-Dateisystem:
 +

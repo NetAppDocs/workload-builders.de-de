@@ -1,8 +1,8 @@
 ---
 indexpage:
-  title: Dokumentation zum BlueXP  Workload Factory for Builders
-  lead: Erstellen und Verwalten von Softwareentwicklungsprojekten auf FSX für ONTAP
-    Filesystem-Storage in BlueXP  Workload Factory.
+  title: Dokumentation zu NetApp Workload Factory für Builder
+  lead: Erstellen und verwalten Sie Softwareentwicklungsprojekte auf FSx für ONTAP
+    Dateisystemspeicher in NetApp Workload Factory.
   tiles:
   - title: Los geht's
     links:
@@ -28,9 +28,9 @@ indexpage:
       url: "/get-help-builders.html"
   - title: Blogs und Community
     links:
+    - title: NetApp Konsole
+      url: https://www.netapp.com/console
+    - title: NetApp Datenservices
+      url: https://www.netapp.com/data-services/
     - title: NetApp Community
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP Blogs
-      url: https://bluexp.netapp.com/blog
-    - title: Cloud-Webinare
-      url: https://bluexp.netapp.com/events
+      url: https://community.netapp.com/
