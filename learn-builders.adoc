@@ -17,11 +17,11 @@ NetApp Workload Factory for Builders ist ein Tool zur schnellen Erstellung von B
 
 == Was ist NetApp Workload Factory für Builder?
 
-NetApp Workload Factory for Builders wurde entwickelt, um die Verwaltung und Interaktion von Entwicklern mit verschiedenen Versionen ihrer Software zu optimieren.  Builders lässt sich nahtlos in Perforce Helix Core integrieren, um sofortige Klone von Softwareversionen bereitzustellen und einsatzbereite Arbeitsbereiche für Entwicklungs-, Qualitätssicherungs- und CI/CD-Prozesse zu erstellen.
+NetApp Workload Factory for Builders wurde entwickelt, um die Art und Weise zu optimieren, wie Entwickler verschiedene Versionen ihrer Software verwalten und mit ihnen interagieren. Builders arbeitet mit Perforce Helix Core zusammen, um Softwareversionen sofort zu klonen und Arbeitsbereiche für Entwicklung, Qualitätssicherung und CI/CD zu erstellen.
 
-Mit Builders können Sie ganz einfach ein Projekt erstellen und ein Volume zuweisen, das Ihre Softwareumgebung und deren Artefakte darstellt. Während Sie Ihre Software aktualisieren, können Sie Snapshots des Volumes erstellen, um den Zustand Ihrer Software zu diesem Zeitpunkt zu erfassen. Das bedeutet, dass Sie sofort auf jede Version Ihrer Software zugreifen können, ohne dass Sie sie mit dem Versionskontrollsystem neu synchronisieren müssen, was wertvolle Zeit und Ressourcen spart.
+Mit Builders können Sie ganz einfach ein Projekt erstellen und ein Volume zuweisen, das Ihre Softwareumgebung und ihre Artefakte repräsentiert. Beim Aktualisieren Ihrer Software können Sie Snapshots des Volumes erstellen, um den Zustand Ihrer Software zu diesem Zeitpunkt festzuhalten. Sie können ohne erneute Synchronisierung sofort auf jede Softwareversion zugreifen und so Zeit und Ressourcen sparen.
 
-Durch Nutzung der Snapshot- und Klonfunktionen von ONTAP verbessert Builders Ihren Entwicklungs-Workflow, der schnellen Zugriff auf mehrere Versionen Ihrer Software ermöglicht, Entwicklungszyklen beschleunigt und die Markteinführungszeit verkürzt.
+Durch die Nutzung der Snapshot- und Klonfunktionen von NetApp ONTAP ermöglicht Builders einen schnelleren Zugriff auf verschiedene Versionen Ihrer Software, sodass Sie Updates schneller entwickeln und veröffentlichen können.
 
 Weitere Informationen zu Workload Factory finden Sie imlink:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["Übersicht über Workload Factory"^] .
 
@@ -45,14 +45,6 @@ NetApp Workload Factory für Builder bietet die folgenden Funktionen:
 == Projekte und Arbeitsbereiche in Builders
 
 Wenn Sie Builders verwenden, erstellen Sie ein Projekt und weisen ein Volume zu, das Ihre Softwareumgebung und deren Artefakte darstellt. Jedes Mal, wenn Sie eine neue Version der Software erstellen, müssen Sie die Volume-Daten neu synchronisieren und einen Projekt-Snapshot erstellen, um den Volume-Status als bekannte Version zu markieren. Das Projektquellvolumen erhält möglicherweise Rolling Updates und verfügt über mehrere Snapshots, um mehrere Versionen zu markieren. Jeder Snapshot kann sofort als sofortiger Klon verwendet werden, als dediziertes oder gemeinsam genutztes bearbeitbares Repository, das Entwicklern, QA- oder Build-Prozessen zur Verfügung steht. Ein Klon im Kontext einer bestimmten Softwareversion ist ein Arbeitsbereich.
-
-
-
-== Betriebsmodi in Workload Factory
-
-Drei verschiedene Betriebsmodi – _Basic_, _Read-Only_ und _Read/Write_ – bieten flexible Optionen für die Bereitstellung innerhalb und außerhalb von Workload Factory.  Profitieren Sie sofort von Zero-Trust im _Basis_-Modus mit Codeausschnitten zur Verwendung außerhalb von Workload Factory.  Erhalten Sie inkrementelle Werte mit inkrementellem Vertrauen im _Nur-Lese-_ und _Lese-/Schreib-_Modus.
-
-Erfahren Sie mehr über link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Betriebsmodi in Workload Factory"^] .
 
 
 
@@ -95,6 +87,6 @@ Die folgenden AWS Regionen werden nicht unterstützt:
 
 == Hilfe wird abgerufen
 
-Amazon FSX für NetApp ONTAP ist eine AWS-First-Party-Lösung. Wenn Sie Fragen oder Probleme des technischen Supports im Zusammenhang mit Ihrem FSX für ONTAP-Filesystem, Ihrer Infrastruktur oder jeder Lösung, die diesen Service verwendet, verwenden Sie das Support-Center in Ihrer AWS-Managementkonsole, um einen Support-Fall für AWS zu eröffnen. Wählen Sie den Service „FSX for ONTAP“ und die entsprechende Kategorie aus. Geben Sie die verbleibenden Informationen an, die zur Erstellung Ihres AWS-Supportfalls erforderlich sind.
+Amazon FSx for NetApp ONTAP ist eine AWS-Erstanbieterlösung. Nutzen Sie für Supportanfragen das Support Center in Ihrer AWS Management Console, um ein Ticket zu eröffnen. Wählen Sie „FSx für ONTAP“ und die Kategorie aus und geben Sie dann die erforderlichen Informationen an.
 
 Allgemeine Fragen zu Workload Factory oder Workload Factory-Anwendungen und -Diensten finden Sie unterlink:get-help-builders.html["Hilfe zu Buildern für Workload Factory erhalten"] .

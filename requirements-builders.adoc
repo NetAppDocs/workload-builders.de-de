@@ -11,13 +11,15 @@ summary: Stellen Sie sicher, dass Workload Factory und AWS ordnungsgemäß einge
 
 
 [role="lead"]
-Stellen Sie sicher, dass Workload Factory und AWS ordnungsgemäß eingerichtet sind, bevor Sie mit der Verwendung von NetApp Workload Factory für Builder beginnen.  Dazu gehören Ihre AWS-Anmeldeinformationen, ein bereitgestelltes FSx für ONTAP Dateisystem und mehr.
+Stellen Sie sicher, dass Workload Factory und AWS ordnungsgemäß eingerichtet sind, bevor Sie NetApp Workload Factory for Builders verwenden. Dazu gehören unter anderem Ihre AWS-Anmeldeinformationen und ein bereitgestelltes FSx for ONTAP Dateisystem.
 
 Workload Werksanmeldung und Konto:: Sie müssen https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Einrichten eines Kontos bei Workload Factory"^] und melden Sie sich mit einem der https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerfahrungen"^] .
 AWS Zugangsdaten und Berechtigungen:: Sie müssen Workload Factory AWS-Anmeldeinformationen mit Lese-/Schreibberechtigungen hinzufügen, was bedeutet, dass Sie Workload Factory für Builder im Lese-/Schreibmodus verwenden.
 
 
-Die Berechtigungen im _Basismodus_ und _Nur-Lese-Modus_ werden derzeit nicht unterstützt.https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie AWS-Anmeldeinformationen zu Workload Factory hinzufügen"^]
+Die Berechtigungen _Basic_ und _read-only_ werden derzeit nicht unterstützt.
+
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie AWS-Anmeldeinformationen zu Workload Factory hinzufügen"^]
 
 FSX für ONTAP-Dateisystem:: Sie benötigen mindestens ein FSX für ONTAP-Dateisystem:
 +
